@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "hero-banner": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "New season",
+            "button_label": "Shop now",
+            "button_link": "/collections/all"
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Best sellers",
+            "button_label": "Shop now",
+            "button_link": "/collections/all"
+          }
+        }
+      },
+      "block_order": ["slide-1", "slide-2"]
+    },
+    "banner": {
+      "type": "banner",
+      "settings": {
+        "heading": "Welcome to our store",
+        "text": "Shop the latest arrivals.",
+        "button_label": "Shop now",
+        "button_link": "/collections/all"
+      }
+    },
+    "basic-section": {
+      "type": "basic-section",
+      "settings": {
+        "heading": "Hello from a basic section",
+        "text": "This section was added to the home page."
+      }
+    }
+  },
+  "order": ["hero-banner", "banner", "basic-section"]
+}
